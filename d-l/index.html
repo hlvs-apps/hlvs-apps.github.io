@@ -1,1 +1,13 @@
-test
+<script type="text/javascript">
+var userLang = navigator.language || navigator.userLanguage; 
+let oldstring = String(window.location);
+if(userLang == 'en'){
+window.location.replace(oldstring.replace("index","index-en"));
+}else if(userLang == 'de'){
+window.location.replace(oldstring.replace("index","index-de"));
+}
+else{
+window.location.replace(oldstring.replace("index","index-en"));
+}
+</script>
+Redirecting...
