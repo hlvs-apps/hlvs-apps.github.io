@@ -3,17 +3,16 @@ var userLang = navigator.language || navigator.userLanguage;
 let oldstring = String(window.location);
 const regex = RegExp('index.html');
 if(regex.test(oldstring)==true){
-if(userLang == 'en'){
-window.location.replace(oldstring.replace("index","index-en"));
-}else if(userLang == 'de'){
-window.location.replace(oldstring.replace("index","index-de"));
-}
-else{
-window.location.replace(oldstring.replace("index","index-en"));
-}
-}
-else{
-  window.location.replace(oldstring.append("index.html"));
+  if(userLang == 'en'){
+    window.location.replace(oldstring.replace("index","index-en"));
+  }else if(userLang == 'de'){
+    window.location.replace(oldstring.replace("index","index-de"));
+  }
+  else{
+    window.location.replace(oldstring.replace("index","index-en"));
+  }
+}else{
+  window.location.replace(oldstring.concat("index.html"));
 }
 </script>
 Redirecting...
