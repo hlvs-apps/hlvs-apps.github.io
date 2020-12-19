@@ -2,7 +2,7 @@
 var userLang = navigator.language || navigator.userLanguage; 
 let oldstring = String(window.location);
 const regex = RegExp('index.html');
-if(regex.test(oldstring){
+if(regex.test(oldstring)==true){
 if(userLang == 'en'){
 window.location.replace(oldstring.replace("index","index-en"));
 }else if(userLang == 'de'){
