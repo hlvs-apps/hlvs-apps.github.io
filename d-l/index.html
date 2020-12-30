@@ -6,9 +6,9 @@
     const regex = RegExp('index.html');
     const regLang = RegExp(userLang);
     if (regex.test(oldstring) == true) {
-        if (regLang.test('en') == true) {
+        if (regLang.test("en") == true) {
             window.location.replace(oldstring.replace("index","index-en"));
-        } else if (regLang.test('de') == true){
+        } else if (regLang.test("de") == true){
             window.location.replace(oldstring.replace("index","index-de"));
         }else{
             window.location.replace(oldstring.replace("index","index-en"));
