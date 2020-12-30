@@ -4,7 +4,7 @@
         navigator.userLanguage; // IE <= 10
     var uL = String(userLang);
     let oldstring = String(window.location);
-    const regLang = RegExp(userLang);
+    const regex = RegExp('index.html');
     if (regex.test(oldstring) == true) {
         if (uL.indexOf("en") !== -1) {
             window.location.replace(oldstring.replace("index","index-en"));
