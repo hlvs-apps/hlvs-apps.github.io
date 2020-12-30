@@ -6,20 +6,21 @@
     if (!isChrome) {
         userLang = navigator.language || navigator.userLanguage;
     }
-let oldstring = String(window.location);
-const regex = RegExp('index.html');
-if(regex.test(oldstring)==true){
-  if(userLang == 'en-US'){
-    window.location.replace(oldstring.replace("index","index-en"));
-  }else if(userLang == 'de-DE'){
-    window.location.replace(oldstring.replace("index","index-de"));
-  }
-  else{
-    window.location.replace(oldstring.replace("index","index-en"));
-  }
-}else{
-  window.location.replace(oldstring.concat("index.html"));
-}
+    let oldstring = String(window.location);
+    const regex = RegExp('index.html');
+    const regLang = RegExp(userLang);
+    if (regex.test(oldstring) == true) {
+        if (regLang.test('en')) {
+            window.location.replace(oldstring.replace("index","index-en"));
+        } else if (regLang.test('de')){
+            window.location.replace(oldstring.replace("index","index-de"));
+    }
+    else{
+        window.location.replace(oldstring.replace("index","index-en"));
+    }
+    }else{
+        window.location.replace(oldstring.concat("index.html"));
+    }
 </script>
 Redirecting...
 to <a href="index-en.html">English Version</a>
