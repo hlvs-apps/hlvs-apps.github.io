@@ -2,12 +2,13 @@
     var userLang = navigator.languages && navigator.languages[0] || // Chrome / Firefox
         navigator.language ||   // All browsers
         navigator.userLanguage; // IE <= 10
+    var uL = String(userLang);
     let oldstring = String(window.location);
     const regLang = RegExp(userLang);
     if (regex.test(oldstring) == true) {
-        if (userLang.indexOf("en") !== -1) {
+        if (uL.indexOf("en") !== -1) {
             window.location.replace(oldstring.replace("index","index-en"));
-        } else if (userLang.indexOf("de") !== -1){
+        } else if (uL.indexOf("de") !== -1){
             window.location.replace(oldstring.replace("index","index-de"));
         }else{
             window.location.replace(oldstring.replace("index","index-en"));
