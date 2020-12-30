@@ -3,12 +3,11 @@
         navigator.language ||   // All browsers
         navigator.userLanguage; // IE <= 10
     let oldstring = String(window.location);
-    const regex = RegExp('index.html');
     const regLang = RegExp(userLang);
     if (regex.test(oldstring) == true) {
-        if (regLang.test("en") == true) {
+        if (userLang.indexOf("en") !== -1) {
             window.location.replace(oldstring.replace("index","index-en"));
-        } else if (regLang.test("de") == true){
+        } else if (userLang.indexOf("de") !== -1){
             window.location.replace(oldstring.replace("index","index-de"));
         }else{
             window.location.replace(oldstring.replace("index","index-en"));
