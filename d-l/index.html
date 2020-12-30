@@ -3,21 +3,20 @@
         navigator.language ||   // All browsers
         navigator.userLanguage; // IE <= 10
     var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
-    if (!isChrome) {
+    if (isChrome == false) {
         userLang = navigator.language || navigator.userLanguage;
     }
     let oldstring = String(window.location);
     const regex = RegExp('index.html');
     const regLang = RegExp(userLang);
     if (regex.test(oldstring) == true) {
-        if (regLang.test('en')) {
+        if (regLang.test('en') == true) {
             window.location.replace(oldstring.replace("index","index-en"));
-        } else if (regLang.test('de')){
+        } else if (regLang.test('de') == true){
             window.location.replace(oldstring.replace("index","index-de"));
-    }
-    else{
-        window.location.replace(oldstring.replace("index","index-en"));
-    }
+        }else{
+            window.location.replace(oldstring.replace("index","index-en"));
+        }
     }else{
         window.location.replace(oldstring.concat("index.html"));
     }
