@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 Allow: /sitemap.htm
-Sitemap: https://hlvs-apps.github.io/sitemap.txt
+Sitemap: https://hlvs-apps.github.io/sitemap.xml
