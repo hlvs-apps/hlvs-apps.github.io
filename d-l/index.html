@@ -2,6 +2,10 @@
     var userLang = navigator.languages && navigator.languages[0] || // Chrome / Firefox
         navigator.language ||   // All browsers
         navigator.userLanguage; // IE <= 10
+    var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+    if (!isChrome) {
+        userLang = navigator.language || navigator.userLanguage;
+    }
 let oldstring = String(window.location);
 const regex = RegExp('index.html');
 if(regex.test(oldstring)==true){
