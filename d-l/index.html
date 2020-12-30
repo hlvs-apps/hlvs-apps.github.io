@@ -29,9 +29,9 @@
 let oldstring = String(window.location);
 const regex = RegExp('index.html');
 if(regex.test(oldstring)==true){
-  if(userLang == 'en'){
+  if(userLang == 'en-US'){
     window.location.replace(oldstring.replace("index","index-en"));
-  }else if(userLang == 'de'){
+  }else if(userLang == 'de-DE'){
     window.location.replace(oldstring.replace("index","index-de"));
   }
   else{
