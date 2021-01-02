@@ -19,6 +19,10 @@ html {
     height: 100%;
 }
 
+.loading {
+    background: transparent url('../img/128px-Loader.gif') center no-repeat;
+}
+
 #sitewrap {
     position: relative;
     min-height: 100vh;
