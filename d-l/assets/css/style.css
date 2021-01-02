@@ -8,11 +8,32 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+
 body {
-  font-family: "Open Sans", sans-serif;
-  color: #585a61;
+    font-family: "Open Sans", sans-serif;
+    color: #585a61;
+    height: 100%;
+}
+html {
+    height: 100%;
 }
 
+#sitewrap {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 22rem; /* Footer height */
+}                 
+
+#footerminpage {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /*height: 2rem; /* Footer height */
+}
 
 a {
   color: #5777ba;
@@ -560,20 +581,26 @@ section {
   padding: 30px 0;
 }
 
+
+
 .features .content .icon-box {
   margin-top: 25px;
 }
 
 .features .content .icon-box h4 {
-  font-size: 20px;
-  font-weight: 700;
-  margin: 5px 0 10px 60px;
+        font-size: 20px;
+        font-weight: 700;
+        margin: 5px 0 10px 60px;
+        word-wrap: break-word;
+}
+.longwordbreak{
+word-break: break-all;
 }
 
 .features .content .icon-box i {
-  font-size: 48px;
-  float: left;
-  color: #5777ba;
+    font-size: 48px;
+    float: left;
+    color: #5777ba;
 }
 
 .features .content .icon-box p {
