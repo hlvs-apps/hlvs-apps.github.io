@@ -4,6 +4,22 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+//Load Images when they are visible
+refresh_handler = function (e) {
+    var elements = document.querySelectorAll("*[realsrc]");
+    for (var i = 0; i < elements.length; i++) {
+        var boundingClientRect = elements[i].getBoundingClientRect();
+        if (elements[i].hasAttribute("realsrc") && boundingClientRect.top < window.innerHeight) {
+            elements[i].setAttribute("src", elements[i].getAttribute("realsrc"));
+            elements[i].removeAttribute("realsrc");
+        }
+    }
+};
+
+window.addEventListener('scroll', refresh_handler);
+window.addEventListener('load', refresh_handler);
+window.addEventListener('resize', refresh_handler);
+
 !(function($) {
   "use strict";
 
