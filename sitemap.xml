@@ -4,74 +4,89 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-	<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
-	<url>
-		<loc>https://hlvs-apps.github.io/</loc>
-		<lastmod>2021-01-07T22:28:06+00:00</lastmod>
-		<priority>1.00</priority>
-	</url>
-	<url>
-		<loc>https://hlvs-apps.github.io/d-l/index.html</loc>
-		<lastmod>2021-01-07T22:28:06+00:00</lastmod>
-		<priority>0.80</priority>
-	</url>
-	<url>
-		<loc>https://hlvs-apps.github.io/d-l/stepbystepdoublelaunchEN.html</loc>
-		<lastmod>2021-01-07T22:28:06+00:00</lastmod>
-		<priority>0.80</priority>
-	</url>
-	<url>
-		<loc>https://hlvs-apps.github.io/d-l/stepbystepdoublelaunchDE.html</loc>
-		<lastmod>2021-01-07T22:28:06+00:00</lastmod>
-		<priority>0.80</priority>
-	</url>
-	<url>
-		<loc>https://hlvs-apps.github.io/d-l/index-en.html</loc>
-		<lastmod>2021-01-07T22:28:06+00:00</lastmod>
-		<priority>0.64</priority>
-	</url>
-	<url>
-		<loc>https://hlvs-apps.github.io/d-l/index-de.html</loc>
-		<lastmod>2021-01-07T22:28:06+00:00</lastmod>
-		<priority>0.64</priority>
-	</url>
-	<url>
-		<loc>https://hlvs-apps.github.io/d-l/stepbystepdoublelaunch.html</loc>
-		<lastmod>2021-01-07T22:28:06+00:00</lastmod>
-		<priority>0.64</priority>
-	</url>
-	<url>
-		<loc>https://hlvs-apps.github.io/d-l/termsofservice.html</loc>
-		<lastmod>2021-01-07T22:28:06+00:00</lastmod>
-		<priority>0.64</priority>
-	</url>
-	<url>
-		<loc>https://hlvs-apps.github.io/d-l/privacypolicy.html</loc>
-		<lastmod>2021-01-07T22:28:06+00:00</lastmod>
-		<priority>0.64</priority>
-	</url>
-	<url>
-		<loc>https://hlvs-apps.github.io/d-l/apptermspolicy.html</loc>
-		<lastmod>2021-01-07T22:28:06+00:00</lastmod>
-		<priority>0.64</priority>
-	</url>
-	<url>
-		<loc>https://hlvs-apps.github.io/d-l/impressum.html</loc>
-		<lastmod>2021-01-07T22:28:06+00:00</lastmod>
-		<priority>0.64</priority>
-	</url>
-	<url>
-		<loc>https://hlvs-apps.github.io/d-l/apptermspolicy-en.html</loc>
-		<lastmod>2021-01-07T22:28:06+00:00</lastmod>
-		<priority>0.51</priority>
-	</url>
-	<url>
-		<loc>https://hlvs-apps.github.io/d-l/apptermspolicy-de.html</loc>
-		<lastmod>2021-01-07T22:28:06+00:00</lastmod>
-		<priority>0.51</priority>
-	</url>
+<url>
+  <loc>https://hlvs-apps.github.io/</loc>
+  <lastmod>2021-01-08T16:32:15+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://hlvs-apps.github.io/d-l/tutorials.html</loc>
+  <lastmod>2021-01-08T16:32:15+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://hlvs-apps.github.io/d-l/index.html</loc>
+  <lastmod>2021-01-08T16:32:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hlvs-apps.github.io/d-l/stepbystepdoublelaunchEN.html</loc>
+  <lastmod>2021-01-08T16:32:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hlvs-apps.github.io/d-l/stepbystepdoublelaunchDE.html</loc>
+  <lastmod>2021-01-08T16:32:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hlvs-apps.github.io/d-l/index-en.html</loc>
+  <lastmod>2021-01-08T16:32:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hlvs-apps.github.io/d-l/index-de.html</loc>
+  <lastmod>2021-01-08T16:32:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hlvs-apps.github.io/d-l/stepbystepdoublelaunch.html</loc>
+  <lastmod>2021-01-08T16:32:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hlvs-apps.github.io/d-l/termsofservice.html</loc>
+  <lastmod>2021-01-08T16:32:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hlvs-apps.github.io/d-l/privacypolicy.html</loc>
+  <lastmod>2021-01-08T16:32:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hlvs-apps.github.io/d-l/apptermspolicy.html</loc>
+  <lastmod>2021-01-08T16:32:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hlvs-apps.github.io/d-l/impressum.html</loc>
+  <lastmod>2021-01-08T16:32:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hlvs-apps.github.io/d-l/tutorials-en.html</loc>
+  <lastmod>2021-01-08T16:32:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hlvs-apps.github.io/d-l/tutorials-de.html</loc>
+  <lastmod>2021-01-08T16:32:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hlvs-apps.github.io/d-l/apptermspolicy-en.html</loc>
+  <lastmod>2021-01-08T16:32:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hlvs-apps.github.io/d-l/apptermspolicy-de.html</loc>
+  <lastmod>2021-01-08T16:32:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
 
 
 </urlset>
