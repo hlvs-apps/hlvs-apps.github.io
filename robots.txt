@@ -1,3 +1,7 @@
 User-agent: *
-Allow: /
+Allow: /double-launcher/
+Allow: /sitemap.xml
+Allow: /sitemap2.xml
+Disallow: /d-l/
+
 Sitemap: https://hlvs-apps.github.io/sitemap.xml
