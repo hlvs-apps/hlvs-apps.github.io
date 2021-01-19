@@ -1,7 +1,12 @@
 User-agent: *
+<<<<<<< Updated upstream
 Allow: /double-launcher/
 Allow: /sitemap.xml
 Allow: /sitemap2.xml
 Disallow: /d-l/
 
+=======
+Allow: /
+Allow: /sitemap.htm
+>>>>>>> Stashed changes
 Sitemap: https://hlvs-apps.github.io/sitemap.xml
